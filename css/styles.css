@@ -18,6 +18,7 @@
   font-family: roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 ul {
   list-style: none;
@@ -41,18 +42,15 @@ ul {
 
 /* Site navigaton */
 .site-nav .link,
-.site-portfolio {
+.site-portfolio .portfolio-link {
   color: var(--secondary-text-color);
   font-weight: 500;
   text-decoration: none;
-  letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-portfolio .link:hover {
+.site-nav .link:hover {
   color: var(--primary-button-color);
 }
-.site-nav .link:focus,
-.site-portfolio .link:focus {
+.site-nav .link:focus {
   color: var(--accent-color);
   box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.05);
 }
@@ -60,10 +58,9 @@ ul {
   color: var(--accent-color);
 }
 .auth-nav .link {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
-  letter-spacing: 0.02em;
 }
 .auth-nav .link:hover {
   color: var(--primary-button-color);
@@ -79,7 +76,6 @@ ul {
   font-size: 56px;
   line-height: 1.1;
   text-align: center;
-  letter-spacing: 0.02em;
 }
 .hero {
   background-color: var(--secondary-bc-color);
@@ -102,10 +98,8 @@ ul {
 }
 .section-title {
   color: var(--secondary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .section-subtitle {
@@ -113,29 +107,20 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .section-discription {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
-
 /* Footer */
 .footer {
   background-color: var(--secondary-bc-color);
 }
 .footer-text {
   color: var(--footer-text-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 .logo-part {
   color: var(--logo-part-color);
-  font-size: 18px;
-  line-height: 1.3;
-  letter-spacing: 0.03em;
 }
 
 /* Button */

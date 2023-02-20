@@ -27,6 +27,7 @@ ul {
 /* Logo */
 .logo {
   color: var(--accent-color);
+  font-family: Raleway;
   font-size: 18px;
   line-height: 1.3;
   text-decoration: none;
@@ -38,9 +39,6 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.logo {
-  font-family: Raleway;
-}
 /* Site navigaton */
 .site-nav .link,
 .site-portfolio {
@@ -102,7 +100,7 @@ ul {
 .bc-title {
   background-color: var(--logo-part-color);
 }
-.title {
+.section-title {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -110,23 +108,23 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.subtitle {
+.section-subtitle {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.discription {
-  font-weight: 400;
-  font-size: 16px;
+.section-discription {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /* Footer */
-footer {
+.footer {
   background-color: var(--secondary-bc-color);
+}
+.footer-text {
   color: var(--footer-text-color);
   font-weight: 400;
   font-size: 16px;
@@ -142,7 +140,7 @@ footer {
 
 /* Button */
 .button {
-  color: var(--logo-part-color);
+  color: var(--main-heading-color);
   background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 500;
@@ -150,6 +148,11 @@ footer {
   line-height: 1.5;
   text-decoration: none;
   letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button.primary {
+  color: var(--accent-color);
+  background-color: var(--logo-part-color);
 }
 .button:hover {
   color: var(--main-heading-color);

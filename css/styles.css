@@ -11,8 +11,12 @@
   --team-bc-color: #f4f4fd;
   --primary-button-color: #404bbf;
 }
+
 /* Body */
+
 .page {
+  margin: 0;
+
   background-color: var(--main-heading-color);
   color: var(--primary-text-color);
   font-family: roboto, sans-serif;
@@ -22,6 +26,15 @@
 }
 ul {
   list-style: none;
+}
+
+/* --------------------Container---------------- */
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px red;
 }
 
 /* Site header */
